@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google Maps</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+		Latitude:
+		<input id="latitude" type="text" value=""><br>
+		Longitude:
+		<input id="longitude" type="text" value=""><br>
+		Message:
+		<input id="message" type="text" name="message"><br>
+
+		<button onclick="updateMap()" id="submit" type="submit">Update Information</button>
+
+	<div id="map"></div>
+
+
+	<script src="google_maps.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyAskk1VKc7ObbQvWoKF72CF-xMRIUBoQf8&callback=myMap"></script>
+
+</body>
+</html>
